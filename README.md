@@ -35,3 +35,31 @@ A complete web-based Grade Management System built with **PHP**, **MySQL**, **HT
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/sameer76-byte/grade_managment_system.git
+   ```
+
+2. **Set up the database**  
+   - Create a MySQL database (e.g., `grade_management_system`)
+   - Import `setup.sql` from the `database/` folder to create tables
+   - (Optional) Import `sample_data.sql` for initial test data (50 students, 24 courses)
+
+3. **Configure database connection**  
+   - Copy `config.sample.php` to `config.php`
+   - Update database credentials (host, username, password) in `config.php`
+
+4. **Run the application**  
+   Place the project folder in your web server's root directory (e.g., `htdocs` for XAMPP).  
+   Access `index.php` in your browser.
+
+## Default Login Credentials
+
+| Role     | Username       | Password  |
+|----------|----------------|-----------|
+| Admin    | admin          | password  |
+| Faculty  | dr.sharma      | password  |
+| Student  | ayush_sharma   | password  |
+
+## License
+MIT
+
+## Author
+Sameer Prasad – [GitHub Profile](https://github.com/sameer76-byte)
