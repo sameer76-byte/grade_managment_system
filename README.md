@@ -34,4 +34,4 @@ A complete web-based Grade Management System built with **PHP**, **MySQL**, **HT
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/grade-management-system.git
+   git clone https://github.com/sameer76-byte/grade_managment_system.git
