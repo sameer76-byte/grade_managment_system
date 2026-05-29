@@ -1,3 +1,5 @@
+![Grade Management System Banner](banner.svg)
+
 # Grade Management System
 
 A complete web-based Grade Management System built with **PHP**, **MySQL**, **HTML/CSS/JS** (Bootstrap). Supports three roles: **Student**, **Faculty**, and **Admin**.
