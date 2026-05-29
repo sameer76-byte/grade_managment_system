@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c7d2fe;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#a5b4fc;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#grad)" />
+
+  <!-- Subtle pattern / decoration -->
+  <circle cx="100" cy="50" r="80" fill="url(#gradLight)" />
+  <circle cx="1100" cy="250" r="100" fill="url(#gradLight)" />
+  <circle cx="600" cy="150" r="150" fill="url(#gradLight)" />
+
+  <!-- Main Title -->
+  <text x="600" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="56" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">
+    Grade Management System
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="180" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#e0e7ff" text-anchor="middle" letter-spacing="1">
+    Student · Faculty · Admin Portal
+  </text>
+
+  <!-- Bottom line -->
+  <line x1="250" y1="210" x2="950" y2="210" stroke="#c7d2fe" stroke-width="2" stroke-dasharray="8,4" opacity="0.6" />
+
+  <!-- Tech stack -->
+  <text x="600" y="245" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#c7d2fe" text-anchor="middle">
+    PHP | MySQL | Bootstrap | Chart.js
+  </text>
+
+  <!-- Small GitHub icon (text) -->
+  <text x="600" y="275" font-family="monospace" font-size="12" fill="#a5b4fc" text-anchor="middle">
+    https://github.com/sameer76-byte/grade_managment_system
+  </text>
+</svg>
